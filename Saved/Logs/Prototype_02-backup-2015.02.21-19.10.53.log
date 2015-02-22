@@ -1,0 +1,1155 @@
+﻿Log file open, 02/21/15 18:33:27
+LogInit:Display: Running engine for game: Prototype_02
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.22-02.33.27:585][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.22-02.33.27:645][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.22-02.33.27:671][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.22-02.33.27:682][  0]LogInit: Object subsystem initialized
+[2015.02.22-02.33.27:687][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.22-02.33.27:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.22-02.33.27:693][  0]LogInit: Computer: AI911LAB245P14
+[2015.02.22-02.33.27:693][  0]LogInit: User: 128996
+[2015.02.22-02.33.27:693][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.22-02.33.27:693][  0]LogInit: High frequency timer resolution =2.604228 MHz
+[2015.02.22-02.33.27:693][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.02.22-02.33.27:693][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.22-02.33.27:693][  0]LogMemory: Process Physical Memory: 48.07 MB used, 48.07 MB peak
+[2015.02.22-02.33.27:694][  0]LogMemory: Process Virtual Memory: 23.55 MB used, 25.88 MB peak
+[2015.02.22-02.33.27:694][  0]LogMemory: Physical Memory: 3645.76 MB used, 8175.22 MB total
+[2015.02.22-02.33.27:694][  0]LogMemory: Virtual Memory: 265.04 MB used, 8388608.00 MB total
+[2015.02.22-02.33.27:724][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro FX 1800 (Feature Level 10_0)
+[2015.02.22-02.33.27:724][  0]LogD3D11RHI: Adapter has 741MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 1 output[s]
+[2015.02.22-02.33.27:724][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.22-02.33.27:730][  0]LogRHI: Texture pool is 519 MB (70% of 741 MB)
+[2015.02.22-02.33.27:739][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.22-02.33.27:801][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.22-02.33.27:977][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.22-02.33.35:216][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-02.33.35:748][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-02.33.35:813][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.22-02.33.35:871][  0]LogDerivedDataCache: Loaded boot cache 0.06s 36MB C:/Users/128996/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.22-02.33.35:871][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/128996/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.22-02.33.35:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/128996/Desktop/Prototype_02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.22-02.33.35:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.22-02.33.35:957][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.22-02.33.35:969][  0]LogDerivedDataCache: Using Local data cache path C:/Users/128996/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.22-02.33.36:135][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.22-02.33.36:312][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.22-02.33.36:312][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.22-02.33.36:781][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.22-02.33.36:854][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.22-02.33.38:075][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.22-02.33.38:266][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/128996/Desktop/Prototype_02/Binaries/Win64. Error: 0
+[2015.02.22-02.33.38:445][  0]SourceControl: Info Source control is disabled
+[2015.02.22-02.33.38:445][  0]SourceControl: Info Source control is disabled
+[2015.02.22-02.33.38:454][  0]SourceControl: Info Source control is disabled
+[2015.02.22-02.33.38:600][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.22-02.33.38:600][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.22-02.33.38:670][  0]LogEngine: Initializing Engine...
+[2015.02.22-02.33.38:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.22-02.33.38:863][  0]LogInit: FAudioDevice initialized.
+[2015.02.22-02.33.38:887][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.22-02.33.38:912][  0]LogDerivedDataCache: Saved boot cache 0.02s 36MB C:/Users/128996/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.22-02.33.38:918][  0]LogInit: Texture streaming: Enabled
+[2015.02.22-02.33.38:952][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.22-02.33.38:952][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.22-02.33.38:953][  0]LogAnalytics: SetUserId 80df66723de4e7d4b02618ad1ceb4287
+[2015.02.22-02.33.38:953][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.22-02.33.38:973][  0]LogInit: Transaction tracking system initialized
+[2015.02.22-02.33.39:088][  0]BlueprintLog: New page: Editor Load
+[2015.02.22-02.33.39:123][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.02.22-02.33.39:123][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.22-02.33.39:682][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-02.33.40:092][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-02.33.42:800][  0]LogConsoleResponse:Display: 
+[2015.02.22-02.33.42:856][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.22-02.33.43:094][  0]SourceControl: Info Source control is disabled
+[2015.02.22-02.33.43:094][  0]Cmd: MAP LOAD FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.22-02.33.43:094][  0]LightingResults: New page: Lighting Build
+[2015.02.22-02.33.43:106][  0]MapCheck: New page: Map Check
+[2015.02.22-02.33.43:106][  0]LightingResults: New page: Lighting Build
+[2015.02.22-02.33.43:115][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012EBD440
+[2015.02.22-02.33.43:559][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.22-02.33.43:560][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.33.43:560][  0]Cmd: MAP CHECKDEP
+[2015.02.22-02.33.43:560][  0]MapCheck: New page: Example_Map - Feb 21, 2015, 10:33:43 AM
+[2015.02.22-02.33.43:672][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.256ms to complete.
+[2015.02.22-02.33.43:672][  0]LogFileHelpers: Loading map 'Example_Map' took 0.578
+[2015.02.22-02.33.43:762][  0]LogCollectionManager: Loaded 0 collections in 0.001076 seconds
+[2015.02.22-02.33.43:874][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.22-02.33.43:880][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.22-02.33.43:906][  0]LogLoad: Full Startup: 18.49 seconds (BP compile: 0.06 seconds)
+[2015.02.22-02.33.44:088][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.22-02.33.44:307][  2]LogAssetRegistry: Asset discovery search completed in 5.1940 seconds
+[2015.02.22-02.34.22:436][695]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-02.34.22:436][695]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:34:22 AM)
+[2015.02.22-02.34.22:478][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041784s)
+[2015.02.22-02.34.22:479][695]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2015.02.22-02.34.22:479][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042989s)
+[2015.02.22-02.34.22:671][695]LogLinker:Warning: Asset '../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.22-02.34.22:922][695]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.02.22-02.34.22:932][695]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2015.02.22-02.34.22:934][695]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.02.22-02.34.22:935][695]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.34.22:937][695]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.34.22:939][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.34.22
+[2015.02.22-02.34.22:939][695]LogWorld: Bringing up level for play took: 0.002252
+[2015.02.22-02.34.22:942][695]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.422
+[2015.02.22-02.34.23:992][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F2FC180
+[2015.02.22-02.34.25:328][804]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:332][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:333][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:334][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:335][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:336][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:337][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:338][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:339][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:340][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:341][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:342][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:343][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:344][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:345][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:346][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:347][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:348][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:349][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:349][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:349][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.35.41:349][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4453.EdGraphPin_5642"''
+[2015.02.22-02.35.41:350][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4453.EdGraphPin_5645"''
+[2015.02.22-02.35.41:369][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NW_Cam''
+[2015.02.22-02.35.41:370][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4454.EdGraphPin_5669"''
+[2015.02.22-02.35.41:371][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputKey_357.EdGraphPin_5447"''
+[2015.02.22-02.35.41:371][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4456.EdGraphPin_5681"''
+[2015.02.22-02.35.41:372][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4456.EdGraphPin_5681"''
+[2015.02.22-02.35.41:373][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2102.EdGraphPin_5696"''
+[2015.02.22-02.35.41:373][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2103.EdGraphPin_5723"''
+[2015.02.22-02.35.41:374][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_234.EdGraphPin_5256"''
+[2015.02.22-02.35.41:376][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NE_Cam''
+[2015.02.22-02.35.41:376][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2101.EdGraphPin_5855"''
+[2015.02.22-02.35.41:376][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2216.EdGraphPin_5879"''
+[2015.02.22-02.35.41:377][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2101.EdGraphPin_5857"''
+[2015.02.22-02.35.41:377][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2101.EdGraphPin_5858"''
+[2015.02.22-02.35.41:378][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SE_Cam''
+[2015.02.22-02.35.41:380][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2217.EdGraphPin_5906"''
+[2015.02.22-02.35.41:380][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_59.EdGraphPin_5241"''
+[2015.02.22-02.35.41:382][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SW_Cam''
+[2015.02.22-02.35.41:382][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1349.EdGraphPin_5949"''
+[2015.02.22-02.35.41:383][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NW_Cam''
+[2015.02.22-02.35.41:383][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1349.EdGraphPin_5948"''
+[2015.02.22-02.35.41:384][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3949.EdGraphPin_5325"''
+[2015.02.22-02.35.41:384][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1978 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1978
+[2015.02.22-02.35.41:385][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1978.EdGraphPin_5279"''
+[2015.02.22-02.35.41:385][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3945.EdGraphPin_5804"''
+[2015.02.22-02.35.41:385][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3610.EdGraphPin_5456"''
+[2015.02.22-02.35.41:385][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4101.EdGraphPin_5969"''
+[2015.02.22-02.35.41:385][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1928 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1928
+[2015.02.22-02.35.41:385][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1928.EdGraphPin_6179"''
+[2015.02.22-02.35.41:386][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3949.EdGraphPin_5326"''
+[2015.02.22-02.35.41:386][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3948.EdGraphPin_5402"''
+[2015.02.22-02.35.41:387][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3950.EdGraphPin_5271"''
+[2015.02.22-02.35.41:387][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3950.EdGraphPin_5272"''
+[2015.02.22-02.35.41:387][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3954.EdGraphPin_5436"''
+[2015.02.22-02.35.41:388][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_205.EdGraphPin_5349"''
+[2015.02.22-02.35.41:388][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3953.EdGraphPin_5382"''
+[2015.02.22-02.35.41:388][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_206.EdGraphPin_5298"''
+[2015.02.22-02.35.41:389][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1947 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1947
+[2015.02.22-02.35.41:389][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1947.EdGraphPin_5393"''
+[2015.02.22-02.35.41:389][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1350.EdGraphPin_5529"''
+[2015.02.22-02.35.41:390][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NW_Cam''
+[2015.02.22-02.35.41:390][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1350.EdGraphPin_5528"''
+[2015.02.22-02.35.41:391][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3948.EdGraphPin_5401"''
+[2015.02.22-02.35.41:391][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3948.EdGraphPin_5400"''
+[2015.02.22-02.35.41:394][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3951.EdGraphPin_5310"''
+[2015.02.22-02.35.41:395][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3955.EdGraphPin_5472"''
+[2015.02.22-02.35.41:395][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3956.EdGraphPin_5499"''
+[2015.02.22-02.35.41:395][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4346.EdGraphPin_6386"''
+[2015.02.22-02.35.41:396][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1351.EdGraphPin_5342"''
+[2015.02.22-02.35.41:396][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3957.EdGraphPin_5364"''
+[2015.02.22-02.35.41:396][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1351.EdGraphPin_5343"''
+[2015.02.22-02.35.41:397][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NW_Cam''
+[2015.02.22-02.35.41:398][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3954.EdGraphPin_5437"''
+[2015.02.22-02.35.41:398][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_205.EdGraphPin_5350"''
+[2015.02.22-02.35.41:399][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3953.EdGraphPin_5383"''
+[2015.02.22-02.35.41:399][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_206.EdGraphPin_5299"''
+[2015.02.22-02.35.41:399][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3955.EdGraphPin_5474"''
+[2015.02.22-02.35.41:400][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3956.EdGraphPin_5501"''
+[2015.02.22-02.35.41:401][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3956.EdGraphPin_5500"''
+[2015.02.22-02.35.41:402][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3955.EdGraphPin_5473"''
+[2015.02.22-02.35.41:402][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3957.EdGraphPin_5361"''
+[2015.02.22-02.35.41:403][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3957.EdGraphPin_5362"''
+[2015.02.22-02.35.41:404][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3614.EdGraphPin_5932"''
+[2015.02.22-02.35.41:405][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3613.EdGraphPin_5792"''
+[2015.02.22-02.35.41:405][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3615.EdGraphPin_5940"''
+[2015.02.22-02.35.41:406][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3615.EdGraphPin_5941"''
+[2015.02.22-02.35.41:406][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_161.EdGraphPin_5550"''
+[2015.02.22-02.35.41:406][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3619.EdGraphPin_5586"''
+[2015.02.22-02.35.41:406][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_162.EdGraphPin_5562"''
+[2015.02.22-02.35.41:406][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3618.EdGraphPin_5574"''
+[2015.02.22-02.35.41:407][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3625.EdGraphPin_5759"''
+[2015.02.22-02.35.41:408][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3625.EdGraphPin_5760"''
+[2015.02.22-02.35.41:408][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3624.EdGraphPin_5754"''
+[2015.02.22-02.35.41:409][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3623.EdGraphPin_5748"''
+[2015.02.22-02.35.41:410][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3616.EdGraphPin_5916"''
+[2015.02.22-02.35.41:411][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3620.EdGraphPin_5598"''
+[2015.02.22-02.35.41:411][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3621.EdGraphPin_5613"''
+[2015.02.22-02.35.41:411][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_161.EdGraphPin_5551"''
+[2015.02.22-02.35.41:412][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_162.EdGraphPin_5563"''
+[2015.02.22-02.35.41:412][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3618.EdGraphPin_5575"''
+[2015.02.22-02.35.41:412][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3619.EdGraphPin_5587"''
+[2015.02.22-02.35.41:413][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3620.EdGraphPin_5600"''
+[2015.02.22-02.35.41:413][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3621.EdGraphPin_5615"''
+[2015.02.22-02.35.41:414][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3621.EdGraphPin_5614"''
+[2015.02.22-02.35.41:415][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3620.EdGraphPin_5599"''
+[2015.02.22-02.35.41:415][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3622.EdGraphPin_5628"''
+[2015.02.22-02.35.41:416][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3622.EdGraphPin_5629"''
+[2015.02.22-02.35.41:417][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3626.EdGraphPin_5768"''
+[2015.02.22-02.35.41:417][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_231.EdGraphPin_6459"''
+[2015.02.22-02.35.41:418][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NE_Cam''
+[2015.02.22-02.35.41:418][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_230.EdGraphPin_6453"''
+[2015.02.22-02.35.41:419][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NE_Cam''
+[2015.02.22-02.35.41:420][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_VariableGet_232 or K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_VariableGet_232
+[2015.02.22-02.35.41:420][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_232.EdGraphPin_6447"''
+[2015.02.22-02.35.41:420][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.NE_Cam''
+[2015.02.22-02.35.41:421][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_230.EdGraphPin_6452"''
+[2015.02.22-02.35.41:421][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_231.EdGraphPin_6458"''
+[2015.02.22-02.35.41:422][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_4347 or K2Node_CallFunction /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:IsValid.K2Node_CallFunction_4347
+[2015.02.22-02.35.41:422][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4347.EdGraphPin_6405"''
+[2015.02.22-02.35.41:423][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_VariableGet_232 or K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_VariableGet_232
+[2015.02.22-02.35.41:423][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_232.EdGraphPin_6446"''
+[2015.02.22-02.35.41:424][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_320.EdGraphPin_6159"''
+[2015.02.22-02.35.41:425][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SW_Cam''
+[2015.02.22-02.35.41:426][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_322.EdGraphPin_6171"''
+[2015.02.22-02.35.41:426][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SW_Cam''
+[2015.02.22-02.35.41:427][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_321.EdGraphPin_6165"''
+[2015.02.22-02.35.41:428][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SW_Cam''
+[2015.02.22-02.35.41:428][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_321.EdGraphPin_6164"''
+[2015.02.22-02.35.41:428][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4104.EdGraphPin_6013"''
+[2015.02.22-02.35.41:429][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4103.EdGraphPin_6002"''
+[2015.02.22-02.35.41:429][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4104.EdGraphPin_6012"''
+[2015.02.22-02.35.41:430][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4105.EdGraphPin_6025"''
+[2015.02.22-02.35.41:430][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4104.EdGraphPin_6014"''
+[2015.02.22-02.35.41:430][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4106.EdGraphPin_6033"''
+[2015.02.22-02.35.41:431][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4106.EdGraphPin_6034"''
+[2015.02.22-02.35.41:431][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_211.EdGraphPin_6066"''
+[2015.02.22-02.35.41:431][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4110.EdGraphPin_6102"''
+[2015.02.22-02.35.41:431][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_212.EdGraphPin_6078"''
+[2015.02.22-02.35.41:432][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4109.EdGraphPin_6090"''
+[2015.02.22-02.35.41:434][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5356.EdGraphPin_6423"''
+[2015.02.22-02.35.41:434][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4107.EdGraphPin_6042"''
+[2015.02.22-02.35.41:435][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4111.EdGraphPin_6114"''
+[2015.02.22-02.35.41:435][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4112.EdGraphPin_6129"''
+[2015.02.22-02.35.41:436][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_211.EdGraphPin_6067"''
+[2015.02.22-02.35.41:436][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_212.EdGraphPin_6079"''
+[2015.02.22-02.35.41:436][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4109.EdGraphPin_6091"''
+[2015.02.22-02.35.41:437][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4110.EdGraphPin_6103"''
+[2015.02.22-02.35.41:437][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4111.EdGraphPin_6116"''
+[2015.02.22-02.35.41:438][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4112.EdGraphPin_6131"''
+[2015.02.22-02.35.41:438][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4112.EdGraphPin_6130"''
+[2015.02.22-02.35.41:439][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4111.EdGraphPin_6115"''
+[2015.02.22-02.35.41:440][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4113.EdGraphPin_6144"''
+[2015.02.22-02.35.41:441][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4113.EdGraphPin_6145"''
+[2015.02.22-02.35.41:442][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4346.EdGraphPin_6389"''
+[2015.02.22-02.35.41:442][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5356.EdGraphPin_6422"''
+[2015.02.22-02.35.41:443][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4346.EdGraphPin_6388"''
+[2015.02.22-02.35.41:443][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1957 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1957
+[2015.02.22-02.35.41:444][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1957.EdGraphPin_6235"''
+[2015.02.22-02.35.41:444][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1955 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1955
+[2015.02.22-02.35.41:444][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1955.EdGraphPin_6224"''
+[2015.02.22-02.35.41:444][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1976 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1976
+[2015.02.22-02.35.41:444][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1976.EdGraphPin_6243"''
+[2015.02.22-02.35.41:445][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1976 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1976
+[2015.02.22-02.35.41:445][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1976.EdGraphPin_6244"''
+[2015.02.22-02.35.41:445][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CommutativeAssociativeBinaryOperator_28 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_28
+[2015.02.22-02.35.41:445][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_28.EdGraphPin_6276"''
+[2015.02.22-02.35.41:445][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2007 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2007
+[2015.02.22-02.35.41:445][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2007.EdGraphPin_6312"''
+[2015.02.22-02.35.41:446][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CommutativeAssociativeBinaryOperator_27 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_27
+[2015.02.22-02.35.41:446][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_27.EdGraphPin_6288"''
+[2015.02.22-02.35.41:446][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2008 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2008
+[2015.02.22-02.35.41:446][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2008.EdGraphPin_6300"''
+[2015.02.22-02.35.41:447][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5358.EdGraphPin_6434"''
+[2015.02.22-02.35.41:447][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5358.EdGraphPin_6435"''
+[2015.02.22-02.35.41:448][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5357.EdGraphPin_6429"''
+[2015.02.22-02.35.41:448][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5359.EdGraphPin_6441"''
+[2015.02.22-02.35.41:449][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_1938 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1938
+[2015.02.22-02.35.41:449][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_1938.EdGraphPin_6252"''
+[2015.02.22-02.35.41:450][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2009 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2009
+[2015.02.22-02.35.41:450][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2009.EdGraphPin_6324"''
+[2015.02.22-02.35.41:450][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2010 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2010
+[2015.02.22-02.35.41:450][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2010.EdGraphPin_6339"''
+[2015.02.22-02.35.41:451][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CommutativeAssociativeBinaryOperator_28 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_28
+[2015.02.22-02.35.41:451][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_28.EdGraphPin_6277"''
+[2015.02.22-02.35.41:451][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CommutativeAssociativeBinaryOperator_27 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_27
+[2015.02.22-02.35.41:451][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_27.EdGraphPin_6289"''
+[2015.02.22-02.35.41:451][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2008 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2008
+[2015.02.22-02.35.41:451][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2008.EdGraphPin_6301"''
+[2015.02.22-02.35.41:451][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2007 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2007
+[2015.02.22-02.35.41:451][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2007.EdGraphPin_6313"''
+[2015.02.22-02.35.41:452][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2009 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2009
+[2015.02.22-02.35.41:452][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2009.EdGraphPin_6326"''
+[2015.02.22-02.35.41:453][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2010 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2010
+[2015.02.22-02.35.41:453][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2010.EdGraphPin_6341"''
+[2015.02.22-02.35.41:453][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2010 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2010
+[2015.02.22-02.35.41:454][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2010.EdGraphPin_6340"''
+[2015.02.22-02.35.41:454][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2009 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2009
+[2015.02.22-02.35.41:454][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2009.EdGraphPin_6325"''
+[2015.02.22-02.35.41:455][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2011 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2011
+[2015.02.22-02.35.41:455][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2011.EdGraphPin_6354"''
+[2015.02.22-02.35.41:456][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_2011 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2011
+[2015.02.22-02.35.41:456][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2011.EdGraphPin_6355"''
+[2015.02.22-02.35.41:457][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_4347 or K2Node_CallFunction /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:IsValid.K2Node_CallFunction_4347
+[2015.02.22-02.35.41:457][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4347.EdGraphPin_6407"''
+[2015.02.22-02.35.41:457][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5359.EdGraphPin_6440"''
+[2015.02.22-02.35.41:458][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_1046.EdGraphPin_5202"''
+[2015.02.22-02.35.41:458][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_5357.EdGraphPin_6428"''
+[2015.02.22-02.35.41:458][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_950.EdGraphPin_5205"''
+[2015.02.22-02.35.41:459][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_4347 or K2Node_CallFunction /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:IsValid.K2Node_CallFunction_4347
+[2015.02.22-02.35.41:459][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4347.EdGraphPin_6406"''
+[2015.02.22-02.35.41:459][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_901.EdGraphPin_5250"''
+[2015.02.22-02.35.41:459][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Example_Map.Example_Map:PersistentLevel.Example_Map.EventGraph.K2Node_CallFunction_4347 or K2Node_CallFunction /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:IsValid.K2Node_CallFunction_4347
+[2015.02.22-02.35.41:460][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_4347.EdGraphPin_6404"''
+[2015.02.22-02.35.41:464][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SE_Cam''
+[2015.02.22-02.35.41:465][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SE_Cam''
+[2015.02.22-02.35.41:466][373]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CameraActor'/Game/Maps/Example_Map.Example_Map:PersistentLevel.SE_Cam''
+[2015.02.22-02.35.44:623][464]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.35.44:706][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:706][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:706][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:707][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:707][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:707][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:707][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:708][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:708][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:708][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:709][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:709][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:709][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:710][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:710][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:710][464]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:749][464]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.02.22-02.35.44:749][464]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.22-02.35.44:805][464]LogBlueprint:Warning: [compiler] Warning [0139.40] Compile of Example_Map successful, but with 16 Warning(s) [in 122 ms]
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:805][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.35.44:806][464]BlueprintEditorCompileResults:Warning: Warning [0139.40] Compile of Example_Map successful, but with 16 Warning(s) [in 122 ms]
+[2015.02.22-02.36.15:720][891]Cmd: EDIT PASTE
+[2015.02.22-02.36.22:006][ 61]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.36.22:091][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:092][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:092][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:092][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:093][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:093][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:093][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:093][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:094][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:094][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:094][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:095][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:095][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:095][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:096][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:096][ 61]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:141][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.02.22-02.36.22:141][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.22-02.36.22:198][ 61]LogBlueprint:Warning: [compiler] Warning [0176.79] Compile of Example_Map successful, but with 16 Warning(s) [in 131 ms]
+[2015.02.22-02.36.22:198][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:199][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.36.22:200][ 61]BlueprintEditorCompileResults:Warning: Warning [0176.79] Compile of Example_Map successful, but with 16 Warning(s) [in 131 ms]
+[2015.02.22-02.36.57:217][875]LogEditorViewport: Clicking on Actor (LMB): CameraActor (NE_Cam)
+[2015.02.22-02.39.13:824][645]LogEditorTransaction: Undo Move Node
+[2015.02.22-02.42.01:511][780]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.42.01:599][780]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:599][780]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:599][780]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:600][780]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:726][780]LogBlueprint:Warning: [compiler] Warning [0516.33] Compile of Example_Map successful, but with 4 Warning(s) [in 154 ms]
+[2015.02.22-02.42.01:726][780]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:726][780]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:727][780]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:727][780]BlueprintEditorCompileResults:Warning: Warning Node  Unknown  is not referencing a valid level actor
+[2015.02.22-02.42.01:727][780]BlueprintEditorCompileResults:Warning: Warning [0516.33] Compile of Example_Map successful, but with 4 Warning(s) [in 154 ms]
+[2015.02.22-02.45.12:455][466]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.45.21:115][685]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.46.09:140][949]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.46.18:864][200]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.22-02.46.39:243][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-02.46.39:551][713]LogSavePackage: Save=247.565491ms
+[2015.02.22-02.46.39:551][713]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Example_MapE7AA76E6466063FA36842EB0B03176BB.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap'
+[2015.02.22-02.46.43:563][866]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.46.43:567][866]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.22-02.46.43:616][866]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.46.43:771][866]LogPlayLevel: PIE:  Blueprint regeneration took 207 ms (2 blueprints)
+[2015.02.22-02.46.43:771][866]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:46:43 AM)
+[2015.02.22-02.46.43:825][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053356s)
+[2015.02.22-02.46.43:826][866]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2015.02.22-02.46.43:826][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.055048s)
+[2015.02.22-02.46.43:886][866]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.46.43:890][866]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.46.43:893][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.46.43
+[2015.02.22-02.46.43:894][866]LogWorld: Bringing up level for play took: 0.003956
+[2015.02.22-02.46.43:897][866]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.558
+[2015.02.22-02.47.09:824][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B4D0F40
+[2015.02.22-02.47.17:079][855]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.47.17:083][855]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.47.17:153][855]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.47.17:154][855]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.13:924][256]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.48.14:015][256]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection
+[2015.02.22-02.48.14:151][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.02.22-02.48.14:151][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.22-02.48.14:174][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C436160
+[2015.02.22-02.48.14:212][256]LogBlueprint:Warning: [compiler] Warning [0888.83] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 221 ms]
+[2015.02.22-02.48.14:212][256]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection
+[2015.02.22-02.48.14:212][256]BlueprintEditorCompileResults:Warning: Warning [0888.83] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 221 ms]
+[2015.02.22-02.48.20:401][390]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.48.20:592][390]BlueprintEditorCompileResults: Info [0895.21] Compile of Example_Map successful! [in 129 ms]
+[2015.02.22-02.48.22:219][421]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.48.22:253][421]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.48.22:411][421]LogPlayLevel: PIE:  Blueprint regeneration took 192 ms (1 blueprints)
+[2015.02.22-02.48.22:411][421]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:48:22 AM)
+[2015.02.22-02.48.22:478][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066549s)
+[2015.02.22-02.48.22:480][421]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2015.02.22-02.48.22:480][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.068019s)
+[2015.02.22-02.48.22:540][421]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.48.22:543][421]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.48.22:546][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.48.22
+[2015.02.22-02.48.22:547][421]LogWorld: Bringing up level for play took: 0.003704
+[2015.02.22-02.48.22:550][421]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.214
+[2015.02.22-02.48.26:110][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000135E82C0
+[2015.02.22-02.48.31:425][682]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.48.31:458][682]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.48.31:628][682]LogPlayLevel: PIE:  Blueprint regeneration took 203 ms (1 blueprints)
+[2015.02.22-02.48.31:628][682]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:48:31 AM)
+[2015.02.22-02.48.31:704][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075023s)
+[2015.02.22-02.48.31:705][682]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2015.02.22-02.48.31:705][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.076382s)
+[2015.02.22-02.48.31:764][682]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.48.31:766][682]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.48.31:768][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.48.31
+[2015.02.22-02.48.31:769][682]LogWorld: Bringing up level for play took: 0.002406
+[2015.02.22-02.48.31:771][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.435
+[2015.02.22-02.48.40:843][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019412E80
+[2015.02.22-02.48.42:510][352]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.42:513][352]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.42:583][352]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.42:584][352]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.50:372][861]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-02.48.50:419][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.50:420][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.50:489][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.02.22-02.48.50:489][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.22-02.48.50:540][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.50:541][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.48.50:575][861]BlueprintEditorCompileResults: Info [0925.19] Compile of MyCharacter successful! [in 192 ms]
+[2015.02.22-02.48.52:810][959]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.48.52:820][959]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.48.52:964][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.22-02.48.52:990][959]LogPlayLevel: PIE:  Blueprint regeneration took 179 ms (1 blueprints)
+[2015.02.22-02.48.52:990][959]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:48:52 AM)
+[2015.02.22-02.48.53:067][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076157s)
+[2015.02.22-02.48.53:068][959]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2015.02.22-02.48.53:068][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.077527s)
+[2015.02.22-02.48.53:125][959]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.48.53:127][959]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.48.53:130][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.48.53
+[2015.02.22-02.48.53:131][959]LogWorld: Bringing up level for play took: 0.003045
+[2015.02.22-02.48.53:133][959]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.202
+[2015.02.22-02.49.03:171][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016FC5A80
+[2015.02.22-02.50.13:409][253]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.50.13:543][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.02.22-02.50.13:543][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.22-02.50.13:632][253]BlueprintEditorCompileResults: Info [1008.25] Compile of Example_Map successful! [in 161 ms]
+[2015.02.22-02.50.14:253][276]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.50.14:316][276]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.50.14:511][276]LogPlayLevel: PIE:  Blueprint regeneration took 258 ms (1 blueprints)
+[2015.02.22-02.50.14:511][276]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:50:14 AM)
+[2015.02.22-02.50.14:569][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057576s)
+[2015.02.22-02.50.14:570][276]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2015.02.22-02.50.14:571][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.058880s)
+[2015.02.22-02.50.14:666][276]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.50.14:669][276]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.50.14:673][276]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.50.14
+[2015.02.22-02.50.14:674][276]LogWorld: Bringing up level for play took: 0.003825
+[2015.02.22-02.50.14:680][276]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.348
+[2015.02.22-02.50.24:259][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000263DF100
+[2015.02.22-02.52.05:495][928]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.05:496][928]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.06:516][  0]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-02.52.06:562][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.06:563][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.06:717][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.06:718][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.06:752][  0]BlueprintEditorCompileResults: Info [1121.38] Compile of MyCharacter successful! [in 224 ms]
+[2015.02.22-02.52.14:360][372]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.14:361][372]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.17:998][614]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.17:999][614]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.23:029][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.23:030][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.24:664][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.24:665][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.28:094][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.28:095][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.28:189][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.28:191][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.34:441][689]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.34:442][689]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.50:825][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.50:826][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.50:927][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.50:928][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.56:697][512]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.52.56:698][512]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.53.15:695][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.53.15:695][146]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.53.17:665][307]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.53.17:666][307]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.02:160][383]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.54.02:297][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.22-02.54.02:365][383]BlueprintEditorCompileResults: Info [1236.99] Compile of Example_Map successful! [in 142 ms]
+[2015.02.22-02.54.04:469][455]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.54.04:498][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:499][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:535][455]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.22-02.54.04:582][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:583][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:679][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:680][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-02.54.04:752][455]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.54.04:927][455]LogPlayLevel: PIE:  Blueprint regeneration took 457 ms (2 blueprints)
+[2015.02.22-02.54.04:927][455]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:54:04 AM)
+[2015.02.22-02.54.05:002][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074303s)
+[2015.02.22-02.54.05:003][455]LogPlayLevel: PIE: World Init took: (0.001533s)
+[2015.02.22-02.54.05:003][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.076128s)
+[2015.02.22-02.54.05:074][455]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.54.05:078][455]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.54.05:081][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.54.05
+[2015.02.22-02.54.05:082][455]LogWorld: Bringing up level for play took: 0.003640
+[2015.02.22-02.54.05:085][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.24
+[2015.02.22-02.54.09:457][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.22-02.54.09:525][711]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025565DA0
+[2015.02.22-02.55.22:025][293]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.55.22:156][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.02.22-02.55.22:156][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.22-02.55.22:219][293]BlueprintEditorCompileResults: Info [1316.85] Compile of Example_Map successful! [in 135 ms]
+[2015.02.22-02.55.23:462][394]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-02.55.23:499][394]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-02.55.23:666][394]LogPlayLevel: PIE:  Blueprint regeneration took 203 ms (1 blueprints)
+[2015.02.22-02.55.23:666][394]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 10:55:23 AM)
+[2015.02.22-02.55.23:709][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042894s)
+[2015.02.22-02.55.23:710][394]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2015.02.22-02.55.23:711][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.044363s)
+[2015.02.22-02.55.23:777][394]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-02.55.23:780][394]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-02.55.23:782][394]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-18.55.23
+[2015.02.22-02.55.23:783][394]LogWorld: Bringing up level for play took: 0.002492
+[2015.02.22-02.55.23:788][394]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.467
+[2015.02.22-02.55.29:592][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F1942C0
+[2015.02.22-02.57.50:977][502]LogSavePackage: Save=248.738586ms
+[2015.02.22-02.57.50:977][502]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Example_Map_Auto10CD3F4D74BC1330B21AE4ABFB22683D8.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.02.22-02.57.50:983][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.343
+[2015.02.22-02.57.50:983][502]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2015.02.22-02.57.50:992][502]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.02.22-02.57.51:009][502]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.02.22-02.57.51:009][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.02.22-02.57.51:010][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.02.22-02.57.51:275][502]LogSavePackage: Save=260.593170ms
+[2015.02.22-02.57.51:276][502]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/MyCharacter_Auto143063C8F41C88795C317F89CD3822668.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2015.02.22-02.57.51:278][502]LogFileHelpers: Auto-saving content packages took 0.295
+[2015.02.22-02.59.02:357][397]BlueprintLog: New page: Compile Example_Map
+[2015.02.22-02.59.02:489][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.22-02.59.02:489][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2015.02.22-02.59.02:556][397]BlueprintEditorCompileResults: Info [1537.20] Compile of Example_Map successful! [in 141 ms]
+[2015.02.22-02.59.15:257][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.22-02.59.29:812][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2015.02.22-02.59.29:812][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.22-02.59.30:019][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-02.59.30:317][641]LogSavePackage: Save=269.389618ms
+[2015.02.22-02.59.30:317][641]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Example_Map25B4F1164AF1DD69B868B0A20585DD67.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap'
+[2015.02.22-02.59.30:348][641]LogFileHelpers: Saving map 'Example_Map' took 0.466
+[2015.02.22-02.59.30:351][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.22-02.59.30:381][641]LogSavePackage: Save=26.757257ms
+[2015.02.22-02.59.30:381][641]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/MyCharacterBA8B98EC48F650B0795C5EB5F1583F64.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset'
+[2015.02.22-03.00.19:703][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-03.00.19:705][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2015.02.22-03.00.19:705][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.22-03.00.19:989][674]LogSavePackage: Save=247.330490ms
+[2015.02.22-03.00.19:989][674]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Example_MapFCAE0662455A629DEF537F8C2FCB6B41.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap'
+[2015.02.22-03.00.41:464][478]LogUProjectInfo: Found projects:
+[2015.02.22-03.01.49:482][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack'
+[2015.02.22-03.01.50:260][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Adam'
+[2015.02.22-03.01.51:968][224]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2015.02.22-03.01.52:940][227]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.22-03.01.54:997][368]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2015.02.22-03.01.56:842][370]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.01.59:433][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.04:321][838]LogAnimation:Warning: AnimBP HeroFPP_AnimBlueprint_C is incompatible with skeleton Mixamo_Adam_Skeleton, removing AnimBP from actor.
+[2015.02.22-03.02.04:322][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2015.02.22-03.02.04:322][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.02.22-03.02.07:296][952]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.15:883][276]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.22:339][523]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.02.22:385][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.22:386][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.22:534][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.22:535][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.22:573][523]BlueprintEditorCompileResults: Info [1737.22] Compile of MyCharacter successful! [in 224 ms]
+[2015.02.22-03.02.25:572][737]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.22-03.02.28:765][ 89]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.22-03.02.29:937][188]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.02.29:983][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.29:984][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.30:117][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.30:118][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.02.30:152][188]BlueprintEditorCompileResults: Info [1744.80] Compile of MyCharacter successful! [in 204 ms]
+[2015.02.22-03.02.32:611][244]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.02.32:667][244]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.02.32:828][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.02.22-03.02.32:854][244]LogPlayLevel: PIE:  Blueprint regeneration took 243 ms (1 blueprints)
+[2015.02.22-03.02.32:854][244]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:02:32 AM)
+[2015.02.22-03.02.32:931][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076766s)
+[2015.02.22-03.02.32:933][244]LogPlayLevel: PIE: World Init took: (0.001279s)
+[2015.02.22-03.02.32:933][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.078268s)
+[2015.02.22-03.02.32:971][244]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.02.32:973][244]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.02.32:975][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.02.32
+[2015.02.22-03.02.32:976][244]LogWorld: Bringing up level for play took: 0.002524
+[2015.02.22-03.02.32:977][244]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.33
+[2015.02.22-03.02.42:855][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B975DA0
+[2015.02.22-03.03.59:470][644]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.03.59:516][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.03.59:517][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.03.59:592][644]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2015.02.22-03.03.59:592][644]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.02.22-03.03.59:661][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.03.59:662][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.03.59:698][644]BlueprintEditorCompileResults: Info [1834.35] Compile of MyCharacter successful! [in 217 ms]
+[2015.02.22-03.04.02:800][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.02.22-03.04.02:800][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2015.02.22-03.04.02:935][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.22-03.04.03:120][863]LogSavePackage: Save=176.127823ms
+[2015.02.22-03.04.03:120][863]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/MyCharacter5D5E35E2478718ABC38BA08E2A1BF5FF.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset'
+[2015.02.22-03.04.04:426][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.04:427][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.04:478][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.04:479][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.06:179][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.06:180][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.06:209][934]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.04.06:245][934]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.04.06:387][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.02.22-03.04.06:387][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2015.02.22-03.04.06:413][934]LogPlayLevel: PIE:  Blueprint regeneration took 203 ms (1 blueprints)
+[2015.02.22-03.04.06:413][934]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:04:06 AM)
+[2015.02.22-03.04.06:459][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045521s)
+[2015.02.22-03.04.06:460][934]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2015.02.22-03.04.06:460][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.046756s)
+[2015.02.22-03.04.06:524][934]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.04.06:527][934]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.04.06:529][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.04.06
+[2015.02.22-03.04.06:621][934]LogWorld: Bringing up level for play took: 0.094526
+[2015.02.22-03.04.06:624][934]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.32
+[2015.02.22-03.04.10:973][109]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.10:974][109]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.11:070][109]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.11:071][109]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.11:164][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000334A40E0
+[2015.02.22-03.04.12:110][133]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2015.02.22-03.04.12:135][133]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.12:136][133]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.12:361][137]Cmd: DELETE
+[2015.02.22-03.04.12:361][137]Cmd: ACTOR DELETE
+[2015.02.22-03.04.12:361][137]LogEditorActor: Deleted Actor: MyCharacter_C
+[2015.02.22-03.04.12:412][137]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.02.22-03.04.14:793][312]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.21:453][954]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.04.21:500][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.21:501][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.21:577][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2015.02.22-03.04.21:577][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.02.22-03.04.21:647][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.21:648][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.21:683][954]BlueprintEditorCompileResults: Info [1856.33] Compile of MyCharacter successful! [in 219 ms]
+[2015.02.22-03.04.23:411][ 36]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.04.23:419][ 36]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.04.23:562][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.02.22-03.04.23:587][ 36]LogPlayLevel: PIE:  Blueprint regeneration took 176 ms (1 blueprints)
+[2015.02.22-03.04.23:588][ 36]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:04:23 AM)
+[2015.02.22-03.04.23:668][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079740s)
+[2015.02.22-03.04.23:669][ 36]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2015.02.22-03.04.23:669][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.080804s)
+[2015.02.22-03.04.23:701][ 36]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.04.23:705][ 36]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.04.23:708][ 36]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.04.23
+[2015.02.22-03.04.23:709][ 36]LogWorld: Bringing up level for play took: 0.003740
+[2015.02.22-03.04.23:712][ 36]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.408
+[2015.02.22-03.04.26:214][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011D8E8E0
+[2015.02.22-03.04.30:787][507]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.32:065][612]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.22-03.04.35:524][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2015.02.22-03.04.35:524][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.02.22-03.04.36:819][152]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.04.36:866][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.36:867][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.36:978][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.37:016][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.37:017][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.37:053][152]BlueprintEditorCompileResults: Info [1871.70] Compile of MyCharacter successful! [in 223 ms]
+[2015.02.22-03.04.37:066][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.38:532][219]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.04.38:541][219]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.04.38:684][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.02.22-03.04.38:710][219]LogPlayLevel: PIE:  Blueprint regeneration took 177 ms (1 blueprints)
+[2015.02.22-03.04.38:710][219]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:04:38 AM)
+[2015.02.22-03.04.38:805][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094618s)
+[2015.02.22-03.04.38:807][219]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2015.02.22-03.04.38:807][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.096383s)
+[2015.02.22-03.04.38:838][219]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.04.38:841][219]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.04.38:843][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.04.38
+[2015.02.22-03.04.38:844][219]LogWorld: Bringing up level for play took: 0.002360
+[2015.02.22-03.04.38:845][219]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.458
+[2015.02.22-03.04.41:588][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027397D80
+[2015.02.22-03.04.43:859][471]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.50:158][124]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.04.50:204][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.50:205][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.50:284][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2015.02.22-03.04.50:284][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.02.22-03.04.50:355][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.50:356][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.04.50:393][124]BlueprintEditorCompileResults: Info [1885.05] Compile of MyCharacter successful! [in 224 ms]
+[2015.02.22-03.04.52:158][223]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.04.52:167][223]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.04.52:308][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.02.22-03.04.52:334][223]LogPlayLevel: PIE:  Blueprint regeneration took 175 ms (1 blueprints)
+[2015.02.22-03.04.52:334][223]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:04:52 AM)
+[2015.02.22-03.04.52:382][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047024s)
+[2015.02.22-03.04.52:383][223]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2015.02.22-03.04.52:383][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048659s)
+[2015.02.22-03.04.52:412][223]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.04.52:414][223]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.04.52:417][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.04.52
+[2015.02.22-03.04.52:417][223]LogWorld: Bringing up level for play took: 0.002419
+[2015.02.22-03.04.52:419][223]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.116
+[2015.02.22-03.05.04:686][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026BF0540
+[2015.02.22-03.05.46:356][395]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.05.46:395][395]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.05.46:539][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2015.02.22-03.05.46:539][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.02.22-03.05.46:566][395]LogPlayLevel: PIE:  Blueprint regeneration took 210 ms (1 blueprints)
+[2015.02.22-03.05.46:566][395]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:05:46 AM)
+[2015.02.22-03.05.46:639][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072113s)
+[2015.02.22-03.05.46:640][395]LogPlayLevel: PIE: World Init took: (0.001468s)
+[2015.02.22-03.05.46:641][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.073953s)
+[2015.02.22-03.05.46:670][395]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.05.46:673][395]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.05.46:675][395]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.05.46
+[2015.02.22-03.05.46:675][395]LogWorld: Bringing up level for play took: 0.002384
+[2015.02.22-03.05.46:677][395]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.623
+[2015.02.22-03.05.55:538][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011D8CEA0
+[2015.02.22-03.06.46:911][362]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.48:915][552]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.48:933][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2015.02.22-03.06.48:933][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.02.22-03.06.50:406][716]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.52:969][967]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.06.53:016][967]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.53:018][967]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.53:162][967]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.53:163][967]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.06.53:198][967]BlueprintEditorCompileResults: Info [2007.85] Compile of MyCharacter successful! [in 218 ms]
+[2015.02.22-03.06.53:586][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.22-03.06.53:758][994]LogSavePackage: Save=167.943436ms
+[2015.02.22-03.06.53:758][994]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/MyCharacterD2EAEA854AF85F30F0CEB1B102FE8E83.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset'
+[2015.02.22-03.06.55:366][ 56]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.06.55:375][ 56]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.06.55:519][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.02.22-03.06.55:546][ 56]LogPlayLevel: PIE:  Blueprint regeneration took 179 ms (1 blueprints)
+[2015.02.22-03.06.55:546][ 56]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:06:55 AM)
+[2015.02.22-03.06.55:601][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054531s)
+[2015.02.22-03.06.55:602][ 56]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2015.02.22-03.06.55:603][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.056246s)
+[2015.02.22-03.06.55:643][ 56]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.06.55:646][ 56]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.06.55:648][ 56]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.06.55
+[2015.02.22-03.06.55:649][ 56]LogWorld: Bringing up level for play took: 0.002409
+[2015.02.22-03.06.55:650][ 56]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.352
+[2015.02.22-03.07.02:499][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000195CA480
+[2015.02.22-03.08.38:489][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2015.02.22-03.08.38:489][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.02.22-03.08.40:199][558]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.08.40:246][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.40:247][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.40:374][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.40:375][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.40:411][558]BlueprintEditorCompileResults: Info [2115.07] Compile of MyCharacter successful! [in 200 ms]
+[2015.02.22-03.08.42:540][787]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.46:629][234]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.48:331][418]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.48:332][418]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.49:991][603]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.51:116][725]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.59:677][615]BlueprintLog: New page: Compile MyCharacter
+[2015.02.22-03.08.59:724][615]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.59:725][615]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.59:867][615]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.59:868][615]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-03.08.59:903][615]BlueprintEditorCompileResults: Info [2134.56] Compile of MyCharacter successful! [in 215 ms]
+[2015.02.22-03.09.00:745][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.02.22-03.09.00:987][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-03.09.01:274][647]LogSavePackage: Save=249.536133ms
+[2015.02.22-03.09.01:274][647]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/Example_Map87578C2545AC88C72942EC8303520D66.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Maps/Example_Map.umap'
+[2015.02.22-03.09.01:298][647]LogFileHelpers: Saving map 'Example_Map' took 0.462
+[2015.02.22-03.09.01:318][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.22-03.09.01:551][647]LogSavePackage: Save=230.091599ms
+[2015.02.22-03.09.01:552][647]LogSavePackage: Moving '../../../../../../Users/128996/Desktop/Prototype_02/Saved/MyCharacter4882FEB24B2E6DC7AFE151AD982F3B7D.tmp' to '../../../../../../Users/128996/Desktop/Prototype_02/Content/Blueprints/MyCharacter.uasset'
+[2015.02.22-03.09.01:951][663]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-03.09.01:959][663]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.02.22-03.09.02:109][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.02.22-03.09.02:138][663]LogPlayLevel: PIE:  Blueprint regeneration took 187 ms (1 blueprints)
+[2015.02.22-03.09.02:138][663]PIE: New page: PIE session: Example_Map (Feb 21, 2015, 11:09:02 AM)
+[2015.02.22-03.09.02:184][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045617s)
+[2015.02.22-03.09.02:186][663]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2015.02.22-03.09.02:186][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047108s)
+[2015.02.22-03.09.02:219][663]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-03.09.02:221][663]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-03.09.02:223][663]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.21-19.09.02
+[2015.02.22-03.09.02:224][663]LogWorld: Bringing up level for play took: 0.002397
+[2015.02.22-03.09.02:225][663]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.931
+[2015.02.22-03.09.31:778][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308D6020
+[2015.02.22-03.09.33:131][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2015.02.22-03.09.33:132][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.02.22-03.09.56:680][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
+[2015.02.22-03.09.56:680][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.02.22-03.09.57:592][623]Cmd: QUIT_EDITOR
+[2015.02.22-03.09.58:051][623]LogExit: Preparing to exit.
+[2015.02.22-03.09.59:198][623]LogExit: Editor shut down
+[2015.02.22-03.09.59:198][623]LogExit: Transaction tracking system shut down
+[2015.02.22-03.09.59:200][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000102A5260
+[2015.02.22-03.09.59:202][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EFC91C0
+[2015.02.22-03.09.59:202][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035F9F920
+[2015.02.22-03.09.59:202][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000363A2FC0
+[2015.02.22-03.09.59:203][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025B94EA0
+[2015.02.22-03.09.59:265][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CB76C00
+[2015.02.22-03.09.59:265][623]LogExit: Object subsystem successfully closed.
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.22-03.09.59:323][623]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.22-03.09.59:324][623]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.22-03.09.59:325][623]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.22-03.09.59:325][623]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.22-03.09.59:325][623]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.22-03.09.59:412][623]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.22-03.09.59:454][623]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.22-03.09.59:455][623]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.22-03.09.59:455][623]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.22-03.09.59:455][623]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.22-03.09.59:455][623]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.22-03.09.59:456][623]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.22-03.09.59:556][623]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.22-03.09.59:556][623]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.22-03.09.59:556][623]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.22-03.09.59:558][623]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.22-03.09.59:558][623]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.22-03.09.59:559][623]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.22-03.09.59:560][623]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.22-03.09.59:560][623]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.22-03.09.59:560][623]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.22-03.09.59:560][623]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.22-03.09.59:560][623]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.22-03.09.59:567][623]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.22-03.09.59:568][623]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.22-03.09.59:632][623]LogDerivedDataCache: Shutdown
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.22-03.09.59:632][623]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.22-03.09.59:633][623]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.22-03.09.59:637][623]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.22-03.09.59:638][623]LogExit: Exiting.
+[2015.02.22-03.09.59:668][623]Log file closed, 02/21/15 19:09:59
